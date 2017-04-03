@@ -25,5 +25,10 @@ require_once("database.php");
         exit();
     }
     $statement->closeCursor();
+    
+    /**
+    Psudo code: putting details into user object
+    */
+    //$user = new User($name,$email,$dob,$password);
 
 header('location: ../index.php');
