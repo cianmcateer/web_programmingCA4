@@ -1,7 +1,7 @@
 <?php
 
 require_once("database.php");
-
+    
     $f_name = filter_input(INPUT_POST, 'first-name');
     $l_name = filter_input(INPUT_POST, 'last-name');
     $dob = filter_input(INPUT_POST, 'date');
